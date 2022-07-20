@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:14-alpine AS todobackend
 WORKDIR /
 EXPOSE 3001
 COPY . .
